@@ -1,0 +1,26 @@
+.post-composer {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.post-composer h2 {
+  margin-bottom: 15px;
+}
+
+.post-composer textarea {
+  width: 100%;
+  min-height: 180px;
+  resize: vertical;
+  padding: 15px;
+  border-radius: 8px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+}
+
+.post-composer textarea:focus {
+  outline: none;
+  border-color: #2563eb;
+}
